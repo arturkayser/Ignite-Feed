@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ignite Feed
 
-Currently, two official plugins are available:
+Ignite Feed é uma rede social voltada para desenvolvedores, inspirada no Instagram, onde você pode compartilhar seus projetos e conquistas na área de tecnologia.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **TypeScript** 
+- **React**
+- **Vite**
+- **CSS** 
+- **JavaScript** 
+- **HTML** 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Executando o Projeto
 
-- Configure the top-level `parserOptions` property like this:
+Para rodar o projeto localmente, siga os passos abaixo:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Clone o repositório:**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   ```bash
+   git clone https://github.com/arturkayser/Ignite-Feed.git
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. **Instale as dependências:**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   Navegue até o diretório do projeto e execute:
+
+   ```bash
+   npm install
+   ```
+
+3. **Execute o servidor de desenvolvimento:**
+
+   Após a instalação das dependências, inicie o servidor com o comando:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse a aplicação:**
+
+   Abra o navegador e acesse `http://localhost:3000` para ver o Ignite Feed em ação.
+
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
